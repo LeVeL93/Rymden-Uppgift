@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solar System</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <section id="pageOne" class="animate-in">
+      <header>
+        <h1>SOLSYSTEMET</h1>
+        <h3>SOLARIS</h3>
+      </header>
+
+      <main class="main-1">
+        <div class="merkurius alla-planeter"></div>
+        <div class="venus alla-planeter"></div>
+        <div class="jorden alla-planeter"></div>
+        <div class="mars alla-planeter"></div>
+        <div class="jupiter alla-planeter"></div>
+        <div class="saturnus alla-planeter"></div>
+        <div class="uranus alla-planeter"></div>
+        <div class="neptunus alla-planeter"></div>
+      </main>
+      <div class="solen alla-planeter" onClick="changeColor()"></div>
+    </section>
+
+    <section id="pageTwo">
+      <div class="planet"></div>
+
+      <main class="main-2">
+        <section class="section-1">
+          <h1 id="name">JORDEN</h1>
+          <h3 id="latin-name">TELLUS</h3>
+          <p class="p" id="desc">
+            Jorden är den största och mest kompakta av de inre planeterna.
+            Jorden är den enda av planeterna som konstaterats ha geologisk
+            aktivitet och är även den enda planeten som med säkerhet härbärgerar
+            liv. Dess flytande hydrosfär är unik bland stenplaneterna och jorden
+            är också den enda planeten hos vilken plattektonik har observerats.
+            Jordens atmosfär skiljer sig markant från de andra planeternas,
+            vilket förklaras av att närvaron av levande organismer har förändrat
+            atmosfären till att innehålla fritt syre, i dag motsvarande 21
+            procent.
+          </p>
+        </section>
+
+        <section class="section-2">
+          <section>
+            <h6 class="h6">OMKRETS</h6>
+            <p class="p" id="circumference">40 075 km</p>
+          </section>
+          <section>
+            <h6 class="h6">KM FRÅN SOLEN</h6>
+            <p class="p" id="distance">149 600 000 km</p>
+          </section>
+          <section>
+            <h6 class="h6">MAX TEMPERATUR</h6>
+            <p class="p" id="max-temp">60C</p>
+          </section>
+          <section>
+            <h6 class="h6">MIN TEMPERATUR</h6>
+            <p class="p" id="min-temp">-50C</p>
+          </section>
+        </section>
+
+        <section class="section-3">
+          <h6 class="h6">MÅNAR</h6>
+          <p class="p" id="moons">Månen</p>
+        </section>
+      </main>
+    </section>
+    <script src="/javascript.js"></script>
+  </body>
+</html>
